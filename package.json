@@ -1,0 +1,25 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Chat with nodeJs and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasDevCardenas/ChatSocket.git"
+  },
+  "author": "Nicolas Cardenas Barrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasDevCardenas/ChatSocket/issues"
+  },
+  "homepage": "https://github.com/NicolasDevCardenas/ChatSocket#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "socket.io": "^2.2.0"
+  }
+}
